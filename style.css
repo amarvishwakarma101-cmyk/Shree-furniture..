@@ -70,7 +70,8 @@ header a[href*="wa.me"]{
     align-items:center;
     text-align:center;
     color:#fff;
-    padding:20px;
+    padding:20px; 
+    gap:20px;
 }
 
 .hero h2{
