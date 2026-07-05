@@ -234,3 +234,36 @@ footer{
     box-shadow:0 4px 10px rgba(0,0,0,0.3);
     z-index:9999;
 }
+.hero{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.hero-buttons{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn{
+    background: #8B0000;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: #b22222;
+}
